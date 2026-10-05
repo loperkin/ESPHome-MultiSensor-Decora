@@ -1,6 +1,12 @@
 # ESPHome-MultiSensor-Decora
 This is a clone of my multisensor but designed to fit in a Decora plate package. It reliably detects human presence while tracking real-time changes in light, temperature, and humidity—all in one compact device.
 
+<p align="center">
+  <img width="350" alt="Decora Wall Plate Front" src="https://github.com/user-attachments/assets/203d0dd1-3c14-47d9-b6b2-7f3a692d36b6" />
+  <img width="350" alt="Decora Wall Plate Back" src="https://github.com/user-attachments/assets/7e219685-9b3e-45d3-bb33-f54c38a45d30" />
+</p>
+
+
 You can automate environments based on what's actually happening in a room. Turn off lights when nobody’s around, adjust climate control to match the current occupancy, or simply collect detailed environmental data for your next project. Whether you’re into home automation, energy savings, or just cool data, this has got you covered.
 
 Features:
