@@ -166,8 +166,8 @@ Recommended starting settings:
 
 I'll update these settings as the enclosure design is finalized and tested.
 
-
 The enclosure is still being refined, so check the repository for the latest version before printing.
+
 
 ---
 
@@ -176,5 +176,57 @@ The enclosure is still being refined, so check the repository for the latest ver
 This project is actively being developed and improved. PCB revisions, enclosure updates, firmware changes, and additional automation examples may be added as I continue testing the design.
 
 If you build one, modify the design, or come up with a useful automation for it, feel free to share your version.
+
+## Purchase Options
+
+If you'd rather skip some of the fabrication and assembly, I have several options available for the **ESPHome MultiSensor Decora**.
+
+You can still build everything yourself using the PCB, 3D print, and project files included in this repository.
+
+### 3D Printed Decora Enclosure
+
+For anyone who wants the custom printed Decora enclosure without printing it themselves:
+
+[Purchase 3D Printed Enclosure](https://py.pl/9J00K)
+
+### Decora MultiSensor PCB
+
+For anyone who wants the custom PCB and plans to supply and assemble their own components:
+
+[Purchase MultiSensor Decora PCB](https://py.pl/2Ezptq)
+
+### Fully Built MultiSensor Decora
+
+Want to skip the soldering and assembly? This option includes the PCB with all of the MultiSensor components installed.
+
+[Purchase Fully Built MultiSensor Decora](https://py.pl/29uClh)
+
+> **Note:** The project remains open for DIY builds. PCB design files, firmware, 3D-printable files, and project documentation are available in this repository if you'd rather build your own.
+
+**Learn it. Build it. Put it into practice.**## Purchase Options
+
+If you'd rather skip some of the fabrication and assembly, I have several options available for the **ESPHome MultiSensor Decora**.
+
+You can still build everything yourself using the PCB, 3D print, and project files included in this repository.
+
+### 3D Printed Decora Enclosure
+
+For anyone who wants the custom printed Decora enclosure without printing it themselves:
+
+[Purchase 3D Printed Enclosure](https://py.pl/9J00K)
+
+### Decora MultiSensor PCB
+
+For anyone who wants the custom PCB and plans to supply and assemble their own components:
+
+[Purchase MultiSensor Decora PCB](https://py.pl/2Ezptq)
+
+### Fully Built MultiSensor Decora
+
+Want to skip the soldering and assembly? This option includes the PCB with all of the MultiSensor components installed.
+
+[Purchase Fully Built MultiSensor Decora](https://py.pl/29uClh)
+
+> **Note:** The project remains open for DIY builds. PCB design files, firmware, 3D-printable files, and project documentation are available in this repository if you'd rather build your own.
 
 **Learn it. Build it. Put it into practice.**
