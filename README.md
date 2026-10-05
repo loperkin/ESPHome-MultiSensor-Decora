@@ -38,8 +38,9 @@ Dashboard:
 
 Example of fun badges for a room <img width="413" height="57" alt="Screenshot 2025-12-27 at 10 17 55 AM" src="https://github.com/user-attachments/assets/5e5d9b20-d28b-472b-a55c-b2dee6bfa59b" />
 
-PCB: This is a PCB for this sensor. If you do not feel like building this on breadboard, purchase the PCB or have it made with the files.
-
-
-
+PCB: This is a PCB for this sensor. Files are available in the PCB Folder.  If you do not feel like building this on breadboard, purchase the PCB or have it made with the files.
+<p align="center">
+  <img width="350" alt="Decora Multi-Sensor PCB" src="https://github.com/user-attachments/assets/46c16b05-94ea-4fc2-b687-688e333620cf" />
+  <img width="350" alt="Decora Multi-Sensor Assembly" src="https://github.com/user-attachments/assets/1c8466a2-de4e-4e23-90db-ebf8baf1f53b" />
+</p>
 Or the Gerber files are attached so you can have the PCB built yourself. Design also available at [oshwlab]( https://oshwlab.com/rockdown/project_jdyzuzoz)
