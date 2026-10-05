@@ -148,11 +148,11 @@ The 3D-printable files can be found in the **3D Print** folder of this repositor
 
 **Front**
 
-<!-- Add front 3D print image here -->
+<img width="350" alt="Decora 3d Print Front" src="https://github.com/user-attachments/assets/5aa9dc7d-66fc-4684-86fa-1d7737969b84" />
 
 **Back**
 
-<!-- Add back 3D print image here -->
+<img width="350" alt="Decora 3d Print Back" src="https://github.com/user-attachments/assets/021b8a54-d299-475c-9904-b61ca8b34ae0" />
 
 ### Print Settings
 
@@ -166,9 +166,6 @@ Recommended starting settings:
 
 I'll update these settings as the enclosure design is finalized and tested.
 
-### Assembly
-
-<!-- Add enclosure assembly instructions here -->
 
 The enclosure is still being refined, so check the repository for the latest version before printing.
 
