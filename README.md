@@ -2,6 +2,7 @@
 This is a clone of my multisensor but designed to fit in a Decora plate package. It reliably detects human presence while tracking real-time changes in light, temperature, and humidity—all in one compact device.
 
 <p align="center">
+  <img width="350" alt="Decora Multi-Sensor Assembly" src="https://github.com/user-attachments/assets/1c8466a2-de4e-4e23-90db-ebf8baf1f53b" />
   <img width="350" alt="Decora Wall Plate Front" src="https://github.com/user-attachments/assets/203d0dd1-3c14-47d9-b6b2-7f3a692d36b6" />
   <img width="350" alt="Decora Wall Plate Back" src="https://github.com/user-attachments/assets/7e219685-9b3e-45d3-bb33-f54c38a45d30" />
 </p>
