@@ -1,5 +1,8 @@
-# ESPHome-MultiSensor-Decora
-This is a clone of my multisensor but designed to fit in a Decora plate package. It reliably detects human presence while tracking real-time changes in light, temperature, and humidity—all in one compact device.
+# ESPHome MultiSensor – Decora
+
+A compact **ESPHome multi-sensor designed to fit into a standard Decora-style wall plate**.
+
+This project is based on my original ESPHome MultiSensor, redesigned to create a cleaner, wall-mounted installation. It combines **human presence detection, ambient light, temperature, and humidity sensing** into one device that integrates directly with ESPHome and Home Assistant.
 
 <p align="center">
   <img width="350" alt="Decora Multi-Sensor Assembly" src="https://github.com/user-attachments/assets/1c8466a2-de4e-4e23-90db-ebf8baf1f53b" />
@@ -7,47 +10,174 @@ This is a clone of my multisensor but designed to fit in a Decora plate package.
   <img width="350" alt="Decora Wall Plate Back" src="https://github.com/user-attachments/assets/7e219685-9b3e-45d3-bb33-f54c38a45d30" />
 </p>
 
+## What It Does
 
-You can automate environments based on what's actually happening in a room. Turn off lights when nobody’s around, adjust climate control to match the current occupancy, or simply collect detailed environmental data for your next project. Whether you’re into home automation, energy savings, or just cool data, this has got you covered.
+The goal of this project is to give Home Assistant a better idea of what is **actually happening in a room**.
 
-Features:
-* Human presence detection for responsive automation
-* Ambient light sensingTemperature monitoring
-* Humidity tracking
-* Simple integration the popular platforms ESPHome and Home Assistant
+With presence and environmental data available in Home Assistant, you can create automations such as:
 
-Supplies:
-  * esp32-c3 supermini → [Amazon](https://amzn.to/46SiDOh) bigger pack [Amazon](https://amzn.to/4jtJqYC)
-  * breadboards → [Amazon](https://amzn.to/3TvAQ0U)
-  * HLK-LD2410C Presence Sensors → [Amazon](https://amzn.to/4z05qyP)  FYI some precense sensors do not like ceiling fans. I have these in rooms with ceiling fans and they think that the room is occupied when the fan runs. I just take steps to avoid that. The b model can supposidly create an ignore zone but I do not have much issue with ceiling fans and this c model.
-  * BH1750 Light Sensors → [Amazon](https://amzn.to/4e47EFg)
-  * DHT22 Temperature and Humidity Sensors → [Amazon](https://amzn.to/4ys3nUs)
+- Turn lights off when a room is no longer occupied
+- Turn lights on based on both presence and ambient light
+- Adjust HVAC based on room occupancy and temperature
+- Track temperature and humidity throughout the house
+- Build room-level dashboards and occupancy indicators
+- Use presence information as part of more advanced automations
 
-I do get a small commision for these links but I personaly did purchase these for this project.
+Whether you're interested in home automation, energy savings, environmental monitoring, or just collecting some cool data, this little sensor can do quite a bit.
 
-OPTIONALS:
+## Features
 
-Any wiring accessories you may want like a [breadboard](https://amzn.to/3TvAQ0U), [wire](https://amzn.to/4AUwiCm), [jumper wire kit](https://amzn.to/4ypj52L) , [connectors](https://amzn.to/4rFU4hc), [usb-c cords](https://amzn.to/3VaIoXF) and [powerbricks](https://amzn.to/4hkBdoj).
+- Human presence detection
+- Ambient light sensing
+- Temperature monitoring
+- Humidity monitoring
+- ESP32-C3 based
+- ESPHome firmware
+- Native Home Assistant integration
+- Designed for a Decora-style wall plate
+- Optional custom PCB
+- 3D-printable enclosure components
 
-Tools:
+## Hardware
 
-[Soldering station](https://amzn.to/4jf3w9d), [solder flux](https://amzn.to/3VYDqgL), [wire strippers](https://amzn.to/4jf3zBV)
+### Main Components
 
-Programing:
+- **ESP32-C3 Super Mini** → [Amazon](https://amzn.to/46SiDOh)  
+  Larger pack → [Amazon](https://amzn.to/4jtJqYC)
 
-The esphome builder code is in the firmware folder. Please have a look and read. You must copy the components of the code you want into your own esphome builder device.
+- **HLK-LD2410C mmWave Presence Sensor** → [Amazon](https://amzn.to/4z05qyP)
 
-If you have a new C3 supermini it probably defaults to sleep and awake, over and over. You need to press and hold boot, then press reset and release, then release boot buttons. This method will allow the C3 supermini to program via usb.
+- **BH1750 Ambient Light Sensor** → [Amazon](https://amzn.to/4e47EFg)
 
-Check out the Automation Examples.
+- **DHT22 Temperature & Humidity Sensor** → [Amazon](https://amzn.to/4ys3nUs)
 
-Dashboard:
+- **Breadboards** → [Amazon](https://amzn.to/3TvAQ0U)
 
-Example of fun badges for a room <img width="413" height="57" alt="Screenshot 2025-12-27 at 10 17 55 AM" src="https://github.com/user-attachments/assets/5e5d9b20-d28b-472b-a55c-b2dee6bfa59b" />
+### A Note About Ceiling Fans
 
-PCB: This is a PCB for this sensor. Files are available in the PCB Folder.  If you do not feel like building this on breadboard, purchase the PCB or have it made with the files.
+Some mmWave presence sensors can detect the movement of a ceiling fan and report the room as occupied.
+
+I've used the **LD2410C** in rooms with ceiling fans and have generally had good results, although you may need to adjust the sensor configuration or account for the fan in your automations.
+
+Other versions of the LD2410, such as models that support configurable detection or exclusion zones, may provide additional options depending on your installation.
+
+## Optional Supplies
+
+Depending on how you build the project, you may also want:
+
+- [Breadboard](https://amzn.to/3TvAQ0U)
+- [Wire](https://amzn.to/4AUwiCm)
+- [Jumper Wire Kit](https://amzn.to/4ypj52L)
+- [Connectors](https://amzn.to/4rFU4hc)
+- [USB-C Cables](https://amzn.to/3VaIoXF)
+- [USB Power Adapters](https://amzn.to/4hkBdoj)
+
+## Tools
+
+A few basic electronics tools will make the build much easier:
+
+- [Soldering Station](https://amzn.to/4jf3w9d)
+- [Solder Flux](https://amzn.to/3VYDqgL)
+- [Wire Strippers](https://amzn.to/4jf3zBV)
+
+> **Affiliate Disclosure:** Some of the Amazon links above are affiliate links. I may receive a small commission if you purchase through them at no additional cost to you. These are components and tools that I personally purchased or used for this project.
+
+## ESPHome Firmware
+
+The ESPHome configuration for this project is located in the **Firmware** folder.
+
+Have a look through the configuration before using it. Depending on your hardware and Home Assistant setup, you may need to copy or modify portions of the configuration for your own ESPHome device.
+
+### Programming the ESP32-C3 Super Mini
+
+Some new ESP32-C3 Super Mini boards may repeatedly enter a sleep/reset cycle and can be difficult to flash initially.
+
+If the board will not enter programming mode:
+
+1. Press and hold the **BOOT** button.
+2. While continuing to hold BOOT, press and release **RESET**.
+3. Release the **BOOT** button.
+4. Try flashing the ESP32-C3 again over USB.
+
+Once programmed, ESPHome should be able to manage subsequent firmware updates normally.
+
+## Automation Examples
+
+Check out the **Automation Examples** included with the project for ideas on how the sensor data can be used inside Home Assistant.
+
+Presence, light level, temperature, and humidity become much more useful when they're combined into room-level automations.
+
+## Home Assistant Dashboard
+
+Here's an example of some simple room-status badges using the sensor data:
+
+<p align="center">
+  <img width="500" alt="Home Assistant room sensor badges" src="https://github.com/user-attachments/assets/5e5d9b20-d28b-472b-a55c-b2dee6bfa59b" />
+</p>
+
+## Custom PCB
+
+I designed a custom PCB for the Decora MultiSensor to make the project cleaner and easier to reproduce.
+
+Instead of assembling everything on a breadboard or using a large amount of point-to-point wiring, the PCB provides a dedicated platform for the ESP32-C3 and sensor components.
+
 <p align="center">
   <img width="350" alt="Decora Multi-Sensor PCB" src="https://github.com/user-attachments/assets/46c16b05-94ea-4fc2-b687-688e333620cf" />
-  <img width="350" alt="Decora Multi-Sensor Assembly" src="https://github.com/user-attachments/assets/1c8466a2-de4e-4e23-90db-ebf8baf1f53b" />
+  <img width="350" alt="Assembled Decora Multi-Sensor PCB" src="https://github.com/user-attachments/assets/1c8466a2-de4e-4e23-90db-ebf8baf1f53b" />
 </p>
-Or the Gerber files are attached so you can have the PCB built yourself. Design also available at [oshwlab]( https://oshwlab.com/rockdown/project_jdyzuzoz)
+
+The PCB design files are available in the **PCB** folder of this repository.
+
+Gerber files are also included if you'd like to have the board manufactured yourself.
+
+The design is also available on [OSHWHub / OSHWLab](https://oshwlab.com/rockdown/project_jdyzuzoz).
+
+You can still build the sensor without the custom PCB. The PCB is simply intended to make the finished project cleaner, more compact, and easier to assemble.
+
+---
+
+## 3D Printed Enclosure
+
+A custom 3D-printable enclosure and Decora-style faceplate were designed specifically for this project.
+
+The enclosure holds the sensor hardware behind the wall plate while providing the necessary openings for the presence, light, temperature, and humidity sensors.
+
+### Printed Parts
+
+The 3D-printable files can be found in the **3D Print** folder of this repository.
+
+**Front**
+
+<!-- Add front 3D print image here -->
+
+**Back**
+
+<!-- Add back 3D print image here -->
+
+### Print Settings
+
+Recommended starting settings:
+
+- **Material:** PLA or PETG
+- **Layer Height:** 0.20 mm
+- **Supports:** TBD
+- **Infill:** TBD
+- **Wall Loops:** TBD
+
+I'll update these settings as the enclosure design is finalized and tested.
+
+### Assembly
+
+<!-- Add enclosure assembly instructions here -->
+
+The enclosure is still being refined, so check the repository for the latest version before printing.
+
+---
+
+## Project Status
+
+This project is actively being developed and improved. PCB revisions, enclosure updates, firmware changes, and additional automation examples may be added as I continue testing the design.
+
+If you build one, modify the design, or come up with a useful automation for it, feel free to share your version.
+
+**Learn it. Build it. Put it into practice.**
