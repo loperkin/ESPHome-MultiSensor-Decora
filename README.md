@@ -42,4 +42,4 @@ PCB: This is a PCB for this sensor. If you do not feel like building this on bre
 
 
 
-Or the Gerber files are attached so you can have the PCB built yourself. Design also available at [oshwlab]()
+Or the Gerber files are attached so you can have the PCB built yourself. Design also available at [oshwlab]( https://oshwlab.com/rockdown/project_jdyzuzoz)
