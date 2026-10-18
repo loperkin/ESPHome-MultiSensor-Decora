@@ -64,7 +64,7 @@ Other versions of the LD2410, such as models that support configurable detection
 
 Depending on how you build the project, you may also want:
 
-- [Breadboard](https://amzn.to/3TvAQ0U)
+- [Breadboard](https://geni.us/UiAciwT) 
 - [Wire](https://amzn.to/4AUwiCm)
 - [Jumper Wire Kit](https://amzn.to/4ypj52L)
 - [Connectors](https://amzn.to/4rFU4hc)
