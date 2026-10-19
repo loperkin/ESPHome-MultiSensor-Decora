@@ -67,7 +67,7 @@ Depending on how you build the project, you may also want:
 - [Breadboard](https://geni.us/UiAciwT) 
 - [Wire](https://geni.us/BJ17)
 - [Jumper Wire Kit](https://geni.us/qSjn)
-- [Connectors](https://amzn.to/4rFU4hc)
+- [Connectors](https://geni.us/77p986)
 - [USB-C Cables](https://amzn.to/3VaIoXF)
 - [USB Power Adapters](https://amzn.to/4hkBdoj)
 
