@@ -75,7 +75,7 @@ Depending on how you build the project, you may also want:
 
 A few basic electronics tools will make the build much easier:
 
-- [Soldering Station](https://amzn.to/4jf3w9d)
+- [Soldering Station](https://geni.us/le9ZvwC)
 - [Solder Flux](https://amzn.to/3VYDqgL)
 - [Wire Strippers](https://amzn.to/4jf3zBV)
 
