@@ -2,6 +2,16 @@
 
 A compact **ESPHome multi-sensor designed to fit into a standard Decora-style wall plate**.
 
+⚠️ Development Notice – Design Revision in Progress
+
+Initial testing has revealed a temperature measurement issue caused by the DHT22 being positioned too close to the presence sensor.
+
+I'm working on an updated design that replaces the DHT22 with an SHT45 and relocates the temperature sensor farther away from the other components to improve measurement accuracy.
+
+Please hold off on building or using the current version until the revised design has been completed and tested.
+
+Updates coming soon!
+
 This project is based on my original ESPHome MultiSensor, redesigned to create a cleaner, wall-mounted installation. It combines **human presence detection, ambient light, temperature, and humidity sensing** into one device that integrates directly with ESPHome and Home Assistant.
 
 <p align="center">
